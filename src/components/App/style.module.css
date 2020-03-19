@@ -1,0 +1,11 @@
+.appContainer {
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  background: #ebf1eb;
+}
+.btnContainer {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
