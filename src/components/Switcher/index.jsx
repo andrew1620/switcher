@@ -4,7 +4,7 @@ import css from "./style.module.css";
 const Switcher = ({ btnStatus, requireBtnStatus, changeBtnStatus }) => {
   useEffect(() => {
     requireBtnStatus();
-  }, []);
+  }, [requireBtnStatus]);
 
   const handleBtnClick = () => {
     changeBtnStatus(!btnStatus);

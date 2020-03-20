@@ -19,7 +19,7 @@ const App = ({
 }) => {
   useEffect(() => {
     connectServer();
-  }, []);
+  }, [connectServer]);
 
   if (!isConnected) return <Preloader />;
 

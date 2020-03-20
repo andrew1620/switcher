@@ -21,8 +21,8 @@ const switcherReducer = (state = initialState, action) => {
 
 export default switcherReducer;
 
-export const setBtnStatus = isOn => {
-  return { type: SET_BTN_STATUS, payload: isOn };
+export const setBtnStatus = btnStatus => {
+  return { type: SET_BTN_STATUS, payload: btnStatus };
 };
 export const setIsConnected = isConnected => {
   return { type: SET_IS_CONNECTED, payload: isConnected };
